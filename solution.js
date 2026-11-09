@@ -1,21 +1,23 @@
 while (true) {
     var inputs = readline().split(' ');
-    const x = parseInt(inputs[0]);
-    const y = parseInt(inputs[1]);
+    const ashX = parseInt(inputs[0]); // موقعك X
+    const ashY = parseInt(inputs[1]); // موقعك Y
 
-    const humanCount = parseInt(readline());
+    // قراءة البشر
     const humans = [];
+    const humanCount = parseInt(readline());
     for (let i = 0; i < humanCount; i++) {
         var inputs = readline().split(' ');
         humans.push({
             id: parseInt(inputs[0]),
             x: parseInt(inputs[1]),
-            y: parseInt(inputs[2]),
+            y: parseInt(inputs[2])
         });
     }
 
-    const zombieCount = parseInt(readline());
+    // قراءة الزومبي
     const zombies = [];
+    const zombieCount = parseInt(readline());
     for (let i = 0; i < zombieCount; i++) {
         var inputs = readline().split(' ');
         zombies.push({
@@ -23,7 +25,7 @@ while (true) {
             x: parseInt(inputs[1]),
             y: parseInt(inputs[2]),
             nextX: parseInt(inputs[3]),
-            nextY: parseInt(inputs[4]),
+            nextY: parseInt(inputs[4])
         });
     }
 
