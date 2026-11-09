@@ -1,3 +1,7 @@
+function distance(x1, y1, x2, y2) {
+    return Math.hypot(x2 - x1, y2 - y1);
+}
+
 while (true) {
     var inputs = readline().split(' ');
     const ashX = parseInt(inputs[0]);
