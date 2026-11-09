@@ -1,9 +1,8 @@
 while (true) {
     var inputs = readline().split(' ');
-    const ashX = parseInt(inputs[0]); // موقعك X
-    const ashY = parseInt(inputs[1]); // موقعك Y
+    const ashX = parseInt(inputs[0]);
+    const ashY = parseInt(inputs[1]);
 
-    // قراءة البشر
     const humans = [];
     const humanCount = parseInt(readline());
     for (let i = 0; i < humanCount; i++) {
@@ -15,7 +14,6 @@ while (true) {
         });
     }
 
-    // قراءة الزومبي
     const zombies = [];
     const zombieCount = parseInt(readline());
     for (let i = 0; i < zombieCount; i++) {
