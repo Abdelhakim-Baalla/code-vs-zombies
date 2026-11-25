@@ -1,5 +1,7 @@
 # Code vs Zombies
 
+[Exécuter le solveur](https://baalla-codingame-lab.abdelhakimbaalla50.workers.dev/?projet=code-vs-zombies)
+
 [Choix de la destination du joueur](https://github.com/Abdelhakim-Baalla/code-vs-zombies/blob/master/solution.js)
 
 [![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A514-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
